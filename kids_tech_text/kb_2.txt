@@ -1,0 +1,2 @@
+Keyboard keys (buttons) have a set of characters on them, and each press of a key is a written symbol.
+Keyboards can have symbols for many different writing systems!

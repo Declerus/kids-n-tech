@@ -1,0 +1,4 @@
+Computer monitors use something called 'aspect ratio'.
+Aspect ratio is the ratio of width to height, and is written with two numbers like 16:9, read 'sixteen-to-nine'.
+In 2010, the computer industry decided on 16:9 because it was also the standard TV size and it was cheaper to make.
+16:9 is also a good size for playing games and viewing movies on the computer.
