@@ -1,0 +1,3 @@
+Most symbols only need one key. For example, the number '1'.
+However, some symbols need you to press and hold several keys at the same time or in order.
+To make '1' into '!' on the English keyboard, you need to press 'SHIFT' and '1' at the same time!

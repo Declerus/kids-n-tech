@@ -1,0 +1,10 @@
+There are a few things people use to decide how good a computer moniter is. Some of these are:
+1. The resolution - the number of unique pixels in that can be displayed and is realted to pixel density.
+The more pixels in one spot, the more detailed the image.
+What is a pixel, you ask? Pixels are tiny samples of an image that when packed together make the original. Pixels are like the DNA or atoms of an image.
+
+2. The colour - this talks about things like contrast, colour depth, and colour correctness.
+
+3. The input - How fast the monitor takes to show something on the screen after it gets a message and how fast it takes to change between one thing on the screen to another.
+
+And many more!

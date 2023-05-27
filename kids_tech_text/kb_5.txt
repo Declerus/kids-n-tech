@@ -1,0 +1,2 @@
+ Today, most keyboards use one of three layouts, ISO, ANSI, and JIS.
+ ANSI is used primarily in the U.S. and JIS is used in Japan, but ISO is used all over!

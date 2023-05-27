@@ -1,0 +1,2 @@
+Devices with touchscreens use virtual keyboards.
+They work alsmot the same way as computer keyboards, but you don't need to hold any buttons!
