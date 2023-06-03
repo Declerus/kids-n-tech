@@ -1,0 +1,3 @@
+Computer monitors often come with extra abilities, such as:
+1. Power saving - Most modern monitors will 'go to sleep' if no input signal is received.
+2. Touchscreen - You can use these monitors with your fingers! Some can even understand finger gestures.

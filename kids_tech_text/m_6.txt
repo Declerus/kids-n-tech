@@ -1,0 +1,4 @@
+There are a few types of computer mice that work with very different methods:
+Ball mice have a ball on the bottom and roll on the ball to move across a surface.
+Laser mice have a small laser on the bottom to detect movement.
+Some mice don't even need to be used on a surface, they can detect movement in the air!

@@ -1,0 +1,8 @@
+Computer mice also have one or more buttons that you can use to select or 'click' on objects on the screen.
+
+Mice with two buttons, 'left' and 'right', do different things.
+If you 'left click' it interacts with the object underneath the arrow (called the 'cursor'). If you left click twice, it will highlight text.
+Try it!
+
+If you 'right click', a menu will open underneath the cursor.
+Go ahead and try for yourself!

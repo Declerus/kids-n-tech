@@ -1,0 +1,2 @@
+Keyboards connect to the computer with a cord or with a wireless connection.
+Wireles keyboards communicate with the computer using radio or infrared signals and need to use a battery.
