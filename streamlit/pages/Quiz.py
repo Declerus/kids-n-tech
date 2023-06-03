@@ -15,9 +15,9 @@ if 'config' not in st.session_state:
 config = st.session_state['config']
 
 # Init random categories
-if 'quizData' not in st.session_state: 
+if 'quizData' not in st.session_state:
     categories = random.sample(st.session_state['config']['quiz']['categories'], k=4)
-    categoriesImageNumber = list(map(lambda x: random.randint(1, config['info'][x]['numberOfImages']), categories))
+    categoriesImageNumber = list(map(lambda x: random.randint(0, config['info'][x]['numberOfImages']), categories))
     st.session_state['quizData'] = {
         "categories": categories,
         "categoriesImageNumber": categoriesImageNumber,
@@ -38,7 +38,7 @@ content = '''
         [data-clicked=""] {{
             border: 5px solid black;
         }}
-        
+
         .image {{
             width: 256px;
             height: 256px;
@@ -60,8 +60,8 @@ content = '''
         category2ImageNumber=quizData['categoriesImageNumber'][1],
         category3ImageNumber=quizData['categoriesImageNumber'][2],
         category4ImageNumber=quizData['categoriesImageNumber'][3],
-        isImage0Clicked="true" if st.session_state.quizSelectedImage == "Image 0" else "", 
-        isImage1Clicked="true" if st.session_state.quizSelectedImage == "Image 1" else "", 
+        isImage0Clicked="true" if st.session_state.quizSelectedImage == "Image 0" else "",
+        isImage1Clicked="true" if st.session_state.quizSelectedImage == "Image 1" else "",
         isImage2Clicked="true" if st.session_state.quizSelectedImage == "Image 2" else "",
         isImage3Clicked="true" if st.session_state.quizSelectedImage == "Image 3" else ""
     )
@@ -71,9 +71,9 @@ st.markdown("""## Select the {0}.""".format(quizData['categories'][quizData['rig
 click_detector(content, key="quizSelectedImage")
 
 if (quizSelectedImage):
-    confirm = st.button("Confirm")  
+    confirm = st.button("Confirm")
     selectedAnswer = int(re.search('(\d)', quizSelectedImage).group(1))
-    
+
     if confirm:
         if selectedAnswer == quizData['rightAnswer']:
             st.session_state['quizSelectedRightAnswer'] = {
