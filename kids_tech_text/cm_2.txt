@@ -1,0 +1,7 @@
+The display in modern monitors is typically an LCD (Liquid-crystal display) with LED (light-emitting diode (LED)) lighting.
+Before the mid 2000s, most monitors used a CRT (cathode-ray tube).
+
+LCD, LED, CRT? What's that?
+Basically this:
+LCD monitors are flat and used in most newer computers.
+CRT monitors look like big boxes and used in ost older computers.

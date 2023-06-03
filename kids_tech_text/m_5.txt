@@ -1,0 +1,2 @@
+You can drag the cursor by pressing and holding a button (left or right) and moving the mouse before releasing the buttons.
+You can use 'drag' to highlight text on the screen, or move something from one box to another.

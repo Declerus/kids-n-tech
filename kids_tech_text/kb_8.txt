@@ -1,0 +1,3 @@
+Some keys are used to tell the computer itself how to act. The big two are:
+1. 'esc' - The escape key (esc) almost always means 'Stop', 'quit', or 'let me out of this'.
+2. 'enter' or 'return' - The purpose of these keys is to confirm what has been typed. The 'return' key is usually used on iOS (Apple), but Windows prefers 'enter'.
