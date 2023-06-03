@@ -1,0 +1,6 @@
+Keys usually fall into one of three types:
+1. Alphanumeric - these are keys like  'A B C' and '1 2 3', as well as symbols like '$ . !'
+2. Modifier keys - special keys that change another key when pressed together, but usually do nothing alone.
+For example: On Mac, 'command' and 'q' quits the current program. On Windows, this is 'alt' and 'F4'.
+3. Cursor keys - move the cursor (the little arrow) to different positions on the screen.
+For example: Arrow keys move the cursor in the direction of the arrow and keys such as 'Page Up' and 'Page Down' move the page up and down.

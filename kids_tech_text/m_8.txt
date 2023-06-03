@@ -1,0 +1,1 @@
+Mice that use a ball to move need a 'mousepad'. The 'mousepad' goes gives the ball a smooth surface to roll.
