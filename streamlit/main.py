@@ -1,6 +1,11 @@
 import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 
+
+
+
+backgroundColor="#C8FFB4"
+
 st.markdown(f"Welcome to Tech-N-Quiz")
 image = st.image("garcon.png")
 image = st.image("fille.png")
