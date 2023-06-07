@@ -1,15 +1,3 @@
-Makefile
-
-	install:
-		# pip install -e .
-		pip install pandas
-
-	clean:
-		rm -f */version.txt
-		rm -f .coverage
-		rm -f */.ipynb_checkpoints
-		rm -Rf build
-		rm -Rf */__pycache__
-		rm -Rf */*.pyc
-
-	all: install clean
+version https://git-lfs.github.com/spec/v1
+oid sha256:30d380b86f323c161df8e7577ab0f8cee7c54e9835f321586f6a4226da23fcfd
+size 216
