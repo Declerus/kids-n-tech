@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 
+
 # Redirect user to quiz if they end up on this page without an answer.
 if 'quizSelectedRightAnswer' not in st.session_state:
     switch_page("Quiz")
@@ -12,8 +13,9 @@ quizRightAnswerCategoryImageNumber = st.session_state['quizSelectedRightAnswer']
 
 st.image("https://raw.githubusercontent.com/JoseeGagne/kids-n-tech-images/main/images/{0}/{1}.png".format(quizRightAnswerCategory, quizRightAnswerCategoryImageNumber))
 
+
 st.markdown("{0}"
-            .format( 
+            .format(
                 config['info'][quizRightAnswerCategory]['description'])
             )
 
