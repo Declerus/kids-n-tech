@@ -1,3 +1,8 @@
+
 version https://git-lfs.github.com/spec/v1
-oid sha256:659da8d12202f9e9a0d3230b9566a669a223d65ef5e94529962587ad0303d91a
-size 63
+
+=======
+raw_data/
+.DS_Store
+version https://git-lfs.github.com/spec/v1
+

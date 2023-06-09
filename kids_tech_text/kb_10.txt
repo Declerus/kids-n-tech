@@ -1,0 +1,4 @@
+There are many keyboard layouts used for different languages, bu most layouts are quite similar.
+For languages like English, the three main types are grouped by where the A, M, Q, W, Y and Z keys are.
+These layouts are named after the first six letters on the first row: AZERTY, QWERTY, QWERTZ, etc.
+The most common is QWERTY. Which layout do you have?
