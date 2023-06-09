@@ -1,26 +1,30 @@
-import streamlit as st
-from streamlit_extras.switch_page_button import switch_page
-from st_click_detector import click_detector
-import random
-from urllib.request import urlopen
-import urllib
 import json
+import random
 import re
+
+from st_click_detector import click_detector
+from streamlit_extras.switch_page_button import switch_page
+
+import streamlit as st
 
 random.seed()
 
 # Init config
 if 'config' not in st.session_state:
-    #response = urlopen("https://raw.githubusercontent.com/JoseeGagne/kids-n-tech-images/main/config.json")
+    with open("config.json", 'r') as file:
+        st.session_state['config'] = json.load(file)
 
-    #st.session_state['config'] = json.loads(response.read())
-    st.session_state['config'] = {"quiz":{"categories":["mouse","keyboard","monitor","dvdreader"]},"info":{"mouse":{"numberOfImages":10,"description":"A computer mouse is a hand-held pointer that detects movement. This movement matches the motion a pointer which lets you interact with things on the screen."},"dvdreader":{"numberOfImages":10,"description":"An optical disc drive is uses laser light to read or write data to or from discs!"},"monitor":{"numberOfImages":10,"description":"A screen, or 'computer monitor', displays information as a picture or text. It is used together with the mouse and keyboard to interact with the computer!"},"keyboard":{"numberOfImages":10,"description":"A computer keyboard is a device modeled after the typewriter keyboard. The keyboard is used as a text entry interface for typing text, numbers, and symbols."}}}
 config = st.session_state['config']
 
 # Init random categories
 if 'quizData' not in st.session_state:
     categories = random.sample(st.session_state['config']['quiz']['categories'], k=4)
-    categoriesImageNumber = list(map(lambda x: random.randint(0, config['info'][x]['numberOfImages']), categories))
+
+    def get_random_image_number(category):
+        return random.randint(0, config['info'][category]['numberOfImages'])
+
+    categoriesImageNumber = list(map(get_random_image_number, categories))
+
     st.session_state['quizData'] = {
         "categories": categories,
         "categoriesImageNumber": categoriesImageNumber,
