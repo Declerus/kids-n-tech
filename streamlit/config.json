@@ -1,0 +1,33 @@
+{
+  "quiz": { "categories": ["mouse", "keyboard", "monitor", "dvdreader"] },
+  "info": {
+    "mouse": {
+      "numberOfImages": 9,
+      "description0": "A computer mouse is a hand-held pointer that detects movement. This movement matches the motion a pointer which lets you interact with things on the screen.",
+      "description1": "Using a mouse for a long time can cause some people pain in their wrists. 'Ergonomic' computer mice are made special so they are comfortable and painless for long term use. ",
+      "description2": "The first public demonstration of a mouse controlling a computer system was in 1968. ",
+      "description3": "Computer mice also have one or more buttons that you can use to select or 'click' on objects on the screen.<br />Mice with two buttons, 'left' and 'right', do different things.<br />If you 'left click' it interacts with the object underneath the arrow (called the 'cursor'). If you left click twice, it will highlight text.Try it!<br />If you 'right click', a menu will open underneath the cursor.<br />Go ahead and try for yourself!"
+    },
+    "dvdreader": {
+      "numberOfImages": 9,
+      "description0": "An optical disc drive is uses laser light to read or write data to or from discs!",
+      "description1": "The DVD format was developed by the Japanese companies Panasonic, Sony, and Toshiba.The first DVD players were released in Japan in 1996 and in the U.S. in 1997.",
+      "description2": "Recently, new laptop and desktop computers do not have disc drives. This makes devices lighter and cheaper.",
+      "description3": "Disc drives are used in many devices, such as CD players, DVD players, and video game consoles!<br /> Older consoles such as the PlayStation 3 and Xbox 360 use disc drives, and even newer consoles like the Nintendo Wii U, PlayStation 5, Xbox Series X."
+    },
+    "monitor": {
+      "numberOfImages": 9,
+      "description0": "A screen, or 'computer monitor', displays information as a picture or text. It is used together with the mouse and keyboard to interact with the computer!",
+      "description1": "Computer monitors often come with extra abilities, such as:<br /> 1. Power saving - Most modern monitors will 'go to sleep' if no input signal is received.<br /> 2. Touchscreen - You can use these monitors with your fingers! Some can even understand finger gestures. ",
+      "description2": "The display in modern monitors is typically an LCD (Liquid-crystal display) with LED (light-emitting diode (LED)) lighting. Before the mid 2000s, most monitors used a CRT (cathode-ray tube).<br />LCD, LED, CRT? What's that?<br />Basically this:<br />LCD monitors are flat and used in most newer computers.<br />CRT monitors look like big boxes and used in ost older computers. ",
+      "description3": "Computer monitors were originally used for data while TVs were used for video. From the 1980s onward, computers have been used for both data and video! "
+    },
+    "keyboard": {
+      "numberOfImages": 5,
+      "description0": "A computer keyboard is a device modeled after the typewriter keyboard. The keyboard is used as a text entry interface for typing text, numbers, and symbols.",
+      "description1": "Keyboard keys (buttons) have a set of characters on them, and each press of a key is a written symbol. Keyboards can have symbols for many different writing systems! ",
+      "description2": "Devices with touchscreens use virtual keyboards. They work alsmot the same way as computer keyboards, but you don't need to hold any buttons! ",
+      "description3": "Some keys are used to tell the computer itself how to act. The big two are:<br />1. 'esc' - The escape key (esc) almost always means 'Stop', 'quit', or 'let me out of this'.<br />2. 'enter' or 'return' - The purpose of these keys is to confirm what has been typed. The 'return' key is usually used on iOS (Apple), but Windows prefers 'enter'. "
+    }
+  }
+}
